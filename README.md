@@ -9,7 +9,7 @@ vladlind Infra repository
 
 In ~/.ssh/config file add following:
 
- Host someinternalhost
+Host someinternalhost
         HostName 10.130.0.27
         ProxyJump vladlind@178.154.206.113
         User vladlind
