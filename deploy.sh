@@ -1,6 +1,6 @@
 #! /bin/bash
 
-ssh yc-user@178.154.205.100 << EOF
+ssh yc-user@178.154.200.216 << EOF
   cd /home/yc-user
   sudo apt -y install git
   git clone -b monolith https://github.com/express42/reddit.git
